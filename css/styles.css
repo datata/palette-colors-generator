@@ -1,0 +1,28 @@
+:root {
+  --brand: rgb(0 0 255);
+  --brand-light: color-mix(in srgb, var(--brand), white);
+  --brand-lighter: color-mix(in srgb, var(--brand), white 75%);
+  --brand-dark: color-mix(in srgb, var(--brand), black);
+  --brand-darker: color-mix(in srgb, var(--brand), black 25%);
+}
+
+body {
+  height: 100vh;
+}
+
+
+.box {
+  height: 200px;
+  width: 200px;
+  color: white;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
